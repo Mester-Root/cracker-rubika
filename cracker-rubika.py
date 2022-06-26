@@ -140,6 +140,8 @@ print (f"\n\n\033[31mTARGET \033[20;37m-> \033[92m{number} | \033[93mSTART IN {d
 time.sleep(2)
 # ....... start test ..........
 
+print ('\n'*5)
+
 while True:
     for code in codes:
         headers2 = {'Host':'https://m.rubika.ir','User-Agent': pyuseragents.random(),'Accept':'application/json, text/plain, */*','content-length':'95','Content-Type':'application/json'}
