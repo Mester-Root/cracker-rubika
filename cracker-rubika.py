@@ -178,7 +178,7 @@ while True:
                         time.sleep(1)
                         print ("\n\033[31m[*] \033[36m<SAVED INFO TARGET TO [TARGET.txt]")
                     except:
-                        os.system(f'sudo echo "code = {code}" > TARGET.txt")
+                        os.system(f'sudo echo "code = {code}" > TARGET.txt')
                         os.system(f"sudo echo phone-number=[{number}] > TARGET.txt")
                         time.sleep(1)
                         print ("\n\033[31m[*] \033[36m<SAVED INFO TARGET TO [TARGET.txt]")
