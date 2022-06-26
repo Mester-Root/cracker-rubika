@@ -1,6 +1,8 @@
-# cracker-rubika
+# ⟨ cracker-rubika ⟩
+# <!-- hack rubika [0] -->
 [*] >>crack phone number [raw] in rubika messenger&lt;&lt; !
 
+[*] > Version 1.0.0
 
 _______________________________________
 _______________________________________
