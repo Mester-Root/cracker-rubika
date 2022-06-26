@@ -10,6 +10,7 @@
 __AUTHOR__ = '''THE MR ROOT'''
 __RUBIKA__ = '''rubika.ir/TheServer'''
 __TOOL__ = '''CRACKER RUBIKA'''
+__VERSION__ = '''1.0.0'''
 # ............................
 import os,time,sys,random
 # -----------------------
@@ -46,6 +47,8 @@ print ('\033[91m')
 time.sleep(2)
 print (pyfiglet.figlet_format(banner))
 time.sleep(2)
+print ('\n\033[20;37m'+__VERSION__)
+time.sleep(1)
 print ('\n\n')
 #----------------------
 # date
