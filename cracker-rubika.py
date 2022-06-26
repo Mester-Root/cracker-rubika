@@ -47,7 +47,7 @@ print ('\033[91m')
 time.sleep(2)
 print (pyfiglet.figlet_format(banner))
 time.sleep(2)
-print ('\n\033[20;37m'+__VERSION__)
+print ('\n\033[20;37m V = '+__VERSION__)
 time.sleep(1)
 print ('\n\n')
 #----------------------
@@ -55,7 +55,7 @@ print ('\n\n')
 date = (datetime.datetime.today())
 #----------------------
 # name file --
-print (f'\n\033[20;37mfile {sys.argv[0]} \033[36mrunning [#] <\n\n')
+print (f'\n\033[20;37mfile \033[31m{sys.argv[0]} \033[36m> running [#] <\n\n')
 print ()
 print ('\033[36m')
 os.system("date")
