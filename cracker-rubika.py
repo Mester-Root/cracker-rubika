@@ -8,7 +8,7 @@
 #<<<<<<<<<<<<< ultra noob >>>>>>>>>>>>
 # im the ....................
 __AUTHOR__ = '''THE MR ROOT'''
-__RUNIKA__ = '''rubika.ir/TheServer'''
+__RUBIKA__ = '''rubika.ir/TheServer'''
 __TOOL__ = '''CRACKER RUBIKA'''
 # ............................
 import os,time,sys,random
