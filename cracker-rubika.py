@@ -175,15 +175,18 @@ while True:
                     try:
                         os.system(f"echo 'code = {code}' > TARGET.txt")
                         os.system(f"echo phone-number=[{number}] > TARGET.txt")
-                        os.system(f'sudo echo 'code = {code}' > TARGET.txt")
-                        print ("\n[*] \033[36m<SAVED INFO TARGET TO [TARGET.txt]")
+                        time.sleep(1)
+                        print ("\n\033[31m[*] \033[36m<SAVED INFO TARGET TO [TARGET.txt]")
                     except:
-                        pass
-                sys.exit()
+                        os.system(f'sudo echo 'code = {code}' > TARGET.txt")
+                        os.system(f"sudo echo phone-number=[{number}] > TARGET.txt")
+                        time.sleep(1)
+                        print ("\n\033[31m[*] \033[36m<SAVED INFO TARGET TO [TARGET.txt]")
             else:
                 None
         except:
             pass
+        sys.exit()
 
 
 # .... method find auth for user it is under construction!.....
