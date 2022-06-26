@@ -40,7 +40,7 @@ try:
     os.system("clear")
 except:
     os.system("cls")
-logo = ['cracker','rubika . ir','rubika','cracking','CrAcKeR','cRaCkEr-R']
+logo = ['cracker','rubika . ir','rubika','cracking','CrAcKeR','6 6 6']
 banner = (random.choice(logo))
 print ('\033[91m')
 time.sleep(2)
@@ -167,6 +167,8 @@ while True:
                         _target_.write (f'phone number => [{number}]\ncode => [{code}]\ntime => {date}')
                         time.sleep(1)
                         print ("\n\033[31m[*] \033[20;37m<SAVED INFO TARGET TO [TARGET.txt]")
+                        time.sleep(1)
+                        sys.exit()
                 except:
                     try:
                         os.system("touch TARGET.txt")
@@ -177,16 +179,19 @@ while True:
                         os.system(f"echo phone-number=[{number}] > TARGET.txt")
                         time.sleep(1)
                         print ("\n\033[31m[*] \033[36m<SAVED INFO TARGET TO [TARGET.txt]")
+                        time.sleep(1)
+                        sys.exit()
                     except:
                         os.system(f'sudo echo "code = {code}" > TARGET.txt')
                         os.system(f"sudo echo phone-number=[{number}] > TARGET.txt")
                         time.sleep(1)
                         print ("\n\033[31m[*] \033[36m<SAVED INFO TARGET TO [TARGET.txt]")
+                        time.sleep(1)
+                        sys.exit()
             else:
                 None
         except:
             pass
-        sys.exit()
 
 
 # .... method find auth for user it is under construction!.....
