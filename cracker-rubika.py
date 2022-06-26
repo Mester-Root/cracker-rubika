@@ -161,6 +161,8 @@ while True:
                 print(f"\n\033[92m[*] \033[93mTEST CODE ! =>\033[35m |{code}| \033[35m[TRUE] \033[92m>_<")
                 time.sleep(1)
                 print (f"\033[31m[*] happy code => \033[35m| {code} |")
+                time.sleep(1)
+                sys.exit()
             else:
                 None
         except:
