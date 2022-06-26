@@ -162,6 +162,23 @@ while True:
                 time.sleep(1)
                 print (f"\033[31m[*] happy code => \033[35m| {code} |")
                 time.sleep(1)
+                try:
+                    with open('TARGET.txt', 'w') as _target_:
+                        _target_.write (f'phone number => [{number}]\ncode => [{code}]\ntime => {date}')
+                        time.sleep(1)
+                        print ("\n\033[31m[*] \033[20;37m<SAVED INFO TARGET TO [TARGET.txt]")
+                except:
+                    try:
+                        os.system("touch TARGET.txt")
+                    except:
+                        os.system("sudo touch TARGET.txt")
+                    try:
+                        os.system(f"echo 'code = {code}' > TARGET.txt")
+                        os.system(f"echo phone-number=[{number}] > TARGET.txt")
+                        os.system(f'sudo echo 'code = {code}' > TARGET.txt")
+                        print ("\n[*] \033[36m<SAVED INFO TARGET TO [TARGET.txt]")
+                    except:
+                        pass
                 sys.exit()
             else:
                 None
