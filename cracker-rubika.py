@@ -77,6 +77,7 @@ method = input ("""\n
 \n[cracker-rubika/~]\033[92m@†.†.†:
 \033[93m⟩⟩⟩\033[36m==============-\033[93m-⟩⟩⟩\033[95 """)
 # --------------------------------
+global codes
 try:
     method = int(method)
     if method == '0' or '1':
@@ -96,17 +97,17 @@ except:
 #-
 time.sleep(1)
 #-------- codeslist file ------
-code = input ("""\033[35m[#] \033[20;37m<ENTER CODES LIST FILE>\n\033[31m
+codes = input ("""\033[35m[#] \033[20;37m<ENTER CODES LIST FILE [codes.txt] >\n\033[31m
 \n[cracker-rubika/~]\033[92m@†.†.†:
 \033[93m⟩⟩⟩\033[36m==============-\033[93m -⟩⟩⟩\033[95m """)
-name = code
+name = codes
 #------------------
 # ..... test codeslist file ......
 try:
     codes = open(name,"r").read().split()
 except:
     print ("\n\033[31mcodelist not true [!]")
-    codes = input ("\n\033[20;37m[#] > \033[36mcodes list - - >\033[35m ")
+    name = input ("\n\033[20;37m[#] > \033[36mcodes list - - >\033[35m ")
 # ------- re'test codeslist file --------
 try:
     codes = open(name,"r").read().split()
