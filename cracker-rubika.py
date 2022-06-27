@@ -66,7 +66,7 @@ print ()
 number = input(F"""
 \n\033[20;37m-enter phone number target -\033[31m
 \n[cracker-rubika/~]\033[92m@†.†.†:
-\033[93m⟩⟩⟩\033[36m==============-\033[93m-⟩⟩⟩\033[95m """)
+\033[93m⟩⟩⟩\033[36m==============-\033[93m->>>\033[95m """)
 #--
 #-----------
 time.sleep(1)
@@ -75,14 +75,14 @@ method = input ("""\n
 \n\033[35m[#]\033[36m methods ==> :\n\n [PANEL]<0> or [AUTO]<1>\n\ntype here number method |\n
 \033[31m
 \n[cracker-rubika/~]\033[92m@†.†.†:
-\033[93m⟩⟩⟩\033[36m==============-\033[93m-⟩⟩⟩\033[95 """)
+\033[93m⟩⟩⟩\033[36m==============-\033[93m->>>\033[95 """)
 # --------------------------------
 global codes
 try:
     method = int(method)
     if method == '0' or '1':
         time.sleep(1)
-        print ('\n\033[92m[*] OK\n')
+        print ('\n\033[92m[*] <OK>\n')
     else:
         time.sleep(1)
         print ("\n\033[31m[!] method not found \033[36m| method => auto")
@@ -99,7 +99,7 @@ time.sleep(1)
 #-------- codeslist file ------
 codes = input ("""\033[35m[#] \033[20;37m<ENTER CODES LIST FILE [codes.txt] >\n\033[31m
 \n[cracker-rubika/~]\033[92m@†.†.†:
-\033[93m⟩⟩⟩\033[36m==============-\033[93m -⟩⟩⟩\033[95m """)
+\033[93m⟩⟩⟩\033[36m==============-\033[93m->>>\033[95m """)
 name = codes
 #------------------
 # ..... test codeslist file ......
