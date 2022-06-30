@@ -64,18 +64,17 @@ print ()
 #-------------
 # ----- number target -------
 number = input(F"""
-\n\033[20;37m-enter phone number target -\033[31m
-\n[cracker-rubika/~]\033[92m@†.†.†:
-\033[93m⟩⟩⟩\033[36m==============-\033[93m->>>\033[95m """)
+\n\033[0m-enter phone number target -\n
+\033[20;37m|----[\033[31mcracker-rubika~\033[93m@\033[92m5.106.6.29\033[20;37m]
+\033[20;37m|_________\033[36m‡ -⟩\033[95m """)
 #--
 #-----------
 time.sleep(1)
 # ---- method = [2] or [1] for crack
 method = input ("""\n
 \n\033[35m[#]\033[36m methods ==> :\n\n [PANEL]<0> or [AUTO]<1>\n\ntype here number method |\n
-\033[31m
-\n[cracker-rubika/~]\033[92m@†.†.†:
-\033[93m⟩⟩⟩\033[36m==============-\033[93m->>>\033[95m """)
+\033[20;37m|----[\033[31mcracker-rubika~\033[93m@\033[92m5.106.6.29\033[20;37m]
+\033[20;37m|_________\033[36m‡ -⟩\033[95m """)
 # --------------------------------
 global codes
 try:
