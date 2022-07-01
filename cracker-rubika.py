@@ -161,7 +161,7 @@ while True:
             time.sleep(1)
             print("\n\033[31m[!] NOT TEST CODE")
         try:
-            if "OK" in send.txt:
+            if "انیمیشن" in send.txt:
                 time.sleep(2)
                 print(f"\n\033[92m[*] \033[93mTEST CODE ! =>\033[35m |{code}| \033[35m[TRUE] \033[92m>_<")
                 time.sleep(1)
